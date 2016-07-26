@@ -56,7 +56,7 @@ import (
 var HTTP_HEAD = "webserver"
 
 var (
-	log *golog.Logger = golog.New("httplib")
+	log *golog.Logger = golog.New("HTTPLIB")
 )
 
 var defaultSetting = BeegoHttpSettings{
